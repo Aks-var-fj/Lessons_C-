@@ -1,9 +1,10 @@
-﻿/*
+﻿//Lesson 1. Знакомство с языком C# (Лекция)
+/*
 int intNumber = 25; //тип данных целочисленные
 double doubleNumber = 12.12; //тип данных десятичные
 string text = "some text";
 bool logicVar = true;
-*/
+
 
 // int num1 = 5;
 // int num2 = 10;
@@ -15,7 +16,7 @@ bool logicVar = true;
 // int num1 = Convert.ToInt32(Console.ReadLine());
 // Console.WriteLine ("My number are " + num1 + " and " + num1 + " and it is good!");
 // Console.WriteLine ($"My number are {num1} and {num1} and it is good!");
-
+*/
 
 //Task 1. Напишите программу, которая на вход принимает два числа и проверяет, является ли первое число квадратом второго.
 /*
