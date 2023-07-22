@@ -102,8 +102,21 @@ else {Console.WriteLine($"Число {num} является четным");}
 */
 
 //Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
+/*
+Console.Write("Input number - ");
+int num = Convert.ToInt32(Console.ReadLine());
+int count = 1;
 
-
-/*5 -> 2, 4
-8 -> 2, 4, 6, 8
+while (count <= num)
+{
+    if (count%2 !=0)
+    {
+        count++;
+    }
+    else 
+    {
+        Console.Write(count + " ");
+        count++;
+    }
+}
 */
