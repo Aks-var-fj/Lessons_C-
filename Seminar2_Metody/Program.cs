@@ -55,18 +55,15 @@ else Console.Write("No");
 
 // Task 3. Напишите программу, которая выводит случайное число из отрезка [10, 99] и показывает наибольшую цифру числа.
 /*
-int maxCifra(int num)
+int maxDigit(int num)
 {
     int desatki = num / 10;
     int units = num % 10;
-    if (desatki > units)
-    {
-        return desatki;
-    }
+    if (desatki > units) return desatki;
     else return units;
 }
 int randNumber = new Random().Next(10,100);
-int res = maxCifra (randNumber);
+int res = maxDigit (randNumber);
 Console.WriteLine(randNumber);
 Console.WriteLine(res);
 */
@@ -77,7 +74,6 @@ bool KvadratChisla(int num1, int num2)
 {
     return num1 == num2 * num2 || num2 == num1 * num1;
 }
-
 Console.Write("Input a number 1 for checking: ");
 int num1 = Convert.ToInt32(Console.ReadLine());
 Console.Write("Input a number 2 for checking: ");
@@ -88,3 +84,5 @@ bool res = KvadratChisla(num1, num2);
 if (res) Console.Write("Yes");
 else Console.Write("No");
 */
+
+//ДОМАШНЕЕ ЗАДАНИЕ
