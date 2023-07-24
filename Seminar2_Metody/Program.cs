@@ -30,5 +30,27 @@ int newNumber = CutNumber(randNumber);
 Console.WriteLine($"New version of {randNumber} is {newNumber}");
 */
 
-// Task 2. 
+// Task 2. Напишите программу, которая принимает на вход число и проверяет, кратно ли оно одновременно a и b.
+/*
+bool IsDividible(int num, int div1, int div2)
+{
+    // if (num % div1 == 0 && num % div2 == 0) // && логическое "И", // логичесчкое "или"
+    //     return true;
+    // else 
+    //     return false;
+    return num % div1 == 0 && num % div2 == 0; //сокращенное написание предыдущих 4 строк
+}
+Console.Write("Input a number for checking: ");
+int number = Convert.ToInt32(Console.ReadLine());
+Console.Write("input a first divider: ");
+int divider1 = Convert.ToInt32(Console.ReadLine());
+Console.Write("input a first divider: ");
+int divider2 = Convert.ToInt32(Console.ReadLine());
 
+bool res = IsDividible(number, divider1, divider2);
+
+if (res) Console.Write("Yes");
+else Console.Write("No");
+*/
+
+// Task 3. 
