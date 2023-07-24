@@ -34,7 +34,7 @@ Console.WriteLine($"New version of {randNumber} is {newNumber}");
 /*
 bool IsDividible(int num, int div1, int div2)
 {
-    // if (num % div1 == 0 && num % div2 == 0) // && логическое "И", // логичесчкое "или"
+    // if (num % div1 == 0 && num % div2 == 0) // && логическое "И", || логичесчкое "или"
     //     return true;
     // else 
     //     return false;
@@ -53,4 +53,38 @@ if (res) Console.Write("Yes");
 else Console.Write("No");
 */
 
-// Task 3. 
+// Task 3. Напишите программу, которая выводит случайное число из отрезка [10, 99] и показывает наибольшую цифру числа.
+/*
+int maxCifra(int num)
+{
+    int desatki = num / 10;
+    int units = num % 10;
+    if (desatki > units)
+    {
+        return desatki;
+    }
+    else return units;
+}
+int randNumber = new Random().Next(10,100);
+int res = maxCifra (randNumber);
+Console.WriteLine(randNumber);
+Console.WriteLine(res);
+*/
+
+// Task 4. Напишите программу, которая принимает на вход два числа и проверяет, является ли одно число квадратом другого.
+/*
+bool KvadratChisla(int num1, int num2)
+{
+    return num1 == num2 * num2 || num2 == num1 * num1;
+}
+
+Console.Write("Input a number 1 for checking: ");
+int num1 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Input a number 2 for checking: ");
+int num2 = Convert.ToInt32(Console.ReadLine());
+
+bool res = KvadratChisla(num1, num2);
+
+if (res) Console.Write("Yes");
+else Console.Write("No");
+*/
