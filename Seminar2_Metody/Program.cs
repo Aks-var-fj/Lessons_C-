@@ -14,7 +14,7 @@
 */
 
 // Практические задания на лекции
- 
+
 // Task 1. Напишите программу, которая выводит случайное трёхзначное число и удаляет вторую цифру этого числа.
 /*
 //351 -> 3 1 -> 31
@@ -93,61 +93,19 @@ else Console.Write("No");
 //782 -> 8
 //918 -> 1
 
-
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 int VtorayaCifra(int num)
-{
+    {
     int num1 = num / 10;
     int res = num1 % 10;
     return res;
-}
-
+    }
 Console.Write("Input number from 100 to 999: ");
 int number = Convert.ToInt32(Console.ReadLine());
-if (number >= 100 && number < 1000)
-{
-    int cifra2 = VtorayaCifra (number);
+ if (number > 99 && number < 1000)
+    {
+    int cifra2 = VtorayaCifra(number);
     Console.WriteLine($"Second digit of {number} is {cifra2}");
-}
-else 
-{
-    Console.WriteLine("Do you now range number from 100 to 999??? otvet y or n");
-    string? otvet = Console.ReadLine();
-    if (otvet == "y" || otvet =="n")
-    {
-        if (otvet == "y")
-        {
-            Console.WriteLine("Nu togda vvedi ego, ty ge ne tupoi");
-        }
-        if (otvet == "n")
-        {
-            Console.WriteLine("Pozdravlay ty tupoi");
-        }
     }
-    else
-    {
-        Console.WriteLine("Napishi otvet normalno!!!");
-        string? b = Console.ReadLine();
-        do 
-        {
-            Console.WriteLine("Napishi otvet normalno!!!!");
-            string? otv = Console.ReadLine();
-        }
-        while (b != "y" || b !="n");
-        if (otvet == "y")
-            {
-                Console.WriteLine("Nu togda vvedi ego, ty ge ne tupoi");
-            }
-            if (otvet == "n")
-            {
-                Console.WriteLine("Pozdravlay ty tupoi");
-            }
-        
-    }
-    
-}
+else Console.WriteLine("Input correct number on range from 100 to 999");
+
+
