@@ -84,28 +84,3 @@ bool res = KvadratChisla(num1, num2);
 if (res) Console.Write("Yes");
 else Console.Write("No");
 */
-
-//ДОМАШНЕЕ ЗАДАНИЕ
-
-// Задача 10. Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа.
-
-//456 -> 5
-//782 -> 8
-//918 -> 1
-
-int VtorayaCifra(int num)
-    {
-    int num1 = num / 10;
-    int res = num1 % 10;
-    return res;
-    }
-Console.Write("Input number from 100 to 999: ");
-int number = Convert.ToInt32(Console.ReadLine());
- if (number > 99 && number < 1000)
-    {
-    int cifra2 = VtorayaCifra(number);
-    Console.WriteLine($"Second digit of {number} is {cifra2}");
-    }
-else Console.WriteLine("Input correct number on range from 100 to 999");
-
-
