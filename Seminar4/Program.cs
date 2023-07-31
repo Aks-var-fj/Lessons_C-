@@ -38,8 +38,34 @@ Console.WriteLine("Input the number: ");
 int nunumber = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine(proizvedenie(nunumber));
 */
+//Task 4. Программа с рандомным массивом
+/*
+int[] CreateRandomArray(int size, int minValue, int maxValue)
+{
+    int[] array = new int[size];
 
+    for(int i = 0; i < size; i++)
+        array[i] = new Random().Next(minValue, maxValue + 1);
+    return array;
+}
 
+void WriteArray(int[] array)
+{
+    for(int i = 0; i < array.Length; i++)
+        Console.Write(array[i] + " ");
+    Console.WriteLine();
+}
+
+Console.Write("Input a length of an array: ");
+int length = Convert.ToInt32(Console.ReadLine());
+Console.Write("Input a min possible value: ");
+int min = Convert.ToInt32(Console.ReadLine());
+Console.Write("Input a max possible value: ");
+int max = Convert.ToInt32(Console.ReadLine());
+
+int[] myArray = CreateRandomArray(length, min, max);
+WriteArray(myArray);
+*/
 
 
 
