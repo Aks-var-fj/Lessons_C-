@@ -1,0 +1,15 @@
+C:\Users\comet\Desktop\Lessons_C-\Domashka\obj\Debug\net6.0\Domashka.csproj.AssemblyReference.cache
+C:\Users\comet\Desktop\Lessons_C-\Domashka\obj\Debug\net6.0\Domashka.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\comet\Desktop\Lessons_C-\Domashka\obj\Debug\net6.0\Domashka.AssemblyInfoInputs.cache
+C:\Users\comet\Desktop\Lessons_C-\Domashka\obj\Debug\net6.0\Domashka.AssemblyInfo.cs
+C:\Users\comet\Desktop\Lessons_C-\Domashka\obj\Debug\net6.0\Domashka.csproj.CoreCompileInputs.cache
+C:\Users\comet\Desktop\Lessons_C-\Domashka\bin\Debug\net6.0\Domashka.exe
+C:\Users\comet\Desktop\Lessons_C-\Domashka\bin\Debug\net6.0\Domashka.deps.json
+C:\Users\comet\Desktop\Lessons_C-\Domashka\bin\Debug\net6.0\Domashka.runtimeconfig.json
+C:\Users\comet\Desktop\Lessons_C-\Domashka\bin\Debug\net6.0\Domashka.dll
+C:\Users\comet\Desktop\Lessons_C-\Domashka\bin\Debug\net6.0\Domashka.pdb
+C:\Users\comet\Desktop\Lessons_C-\Domashka\obj\Debug\net6.0\Domashka.dll
+C:\Users\comet\Desktop\Lessons_C-\Domashka\obj\Debug\net6.0\refint\Domashka.dll
+C:\Users\comet\Desktop\Lessons_C-\Domashka\obj\Debug\net6.0\Domashka.pdb
+C:\Users\comet\Desktop\Lessons_C-\Domashka\obj\Debug\net6.0\Domashka.genruntimeconfig.cache
+C:\Users\comet\Desktop\Lessons_C-\Domashka\obj\Debug\net6.0\ref\Domashka.dll
