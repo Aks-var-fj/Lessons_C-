@@ -81,12 +81,12 @@ void Vozvedenie_V_Kub(int number)
                 int count = 1;
                 while (count <= number)
                 {
-                    Console.WriteLine($"{count} - {Math.Pow(5,2)}");
+                    Console.WriteLine($"{count} - {Math.Pow(count,3)}");
                     count++;
                 }
             }
     }
 Console.WriteLine("Input number: ");
 int num = Convert.ToInt32(Console.ReadLine());
-void(num);
+Vozvedenie_V_Kub(num);
 
