@@ -1,0 +1,14 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Seminar2_Metody
+<<<<<<< HEAD:Seminar2_Metody/obj/Debug/net6.0/Seminar2_Metody.GeneratedMSBuildEditorConfig.editorconfig
+build_property.ProjectDir = c:\Users\comet\Desktop\Lessons_C-\Seminar2_Metody\
+=======
+build_property.ProjectDir = c:\Users\79288\OneDrive\Рабочий стол\Examples\Seminar2_Metody\
+>>>>>>> 78319a82c8dc92d54c3239aed4381eb3a0b02f57:Seminar_2_Metody/obj/Debug/net6.0/Seminar2_Metody.GeneratedMSBuildEditorConfig.editorconfig
