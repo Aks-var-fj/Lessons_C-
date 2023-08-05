@@ -24,13 +24,16 @@ int number = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine(sum(number));
 */
 //Задача 29: Напишите программу, которая задаёт массив из m элементов и выводит их на экран.
+/*
 int[] CreateRandomArray(int size)
 {
     int[] array = new int[size];
 
     for(int i = 0; i < size; i++)
-        Console.Write($"Input number in {i} element in array: ");
-        array[i] = new Convert.ToInt32(Console.ReadLine());
+        {
+            Console.WriteLine($"Input number in {i} element in array: ");
+            array[i] = Convert.ToInt32(Console.ReadLine());
+        }
     return array;
 }
 
@@ -46,7 +49,7 @@ int length = Convert.ToInt32(Console.ReadLine());
 
 int[] myArray = CreateRandomArray(length);
 WriteArray(myArray);
-
+*/
 
 
 
