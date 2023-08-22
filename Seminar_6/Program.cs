@@ -147,5 +147,3 @@ int[] copy_my_array = copy_array(myArray);
 WriteArray(copy_my_array);
 */
            
-//HomeWork
-//Написать программу, преобразующую число из десятеричной системы счисления в двоичную.
