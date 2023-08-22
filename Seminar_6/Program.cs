@@ -107,7 +107,7 @@ WriteArray(myArray);
 */
 
 // Task 4. Напишите программу, которая будет создавать копию заданного массива с помощью поэлементного копирования.
-
+/*
 int[] CreateRandomArray(int size, int minValue, int maxValue)
 {
     int[] array = new int[size];
@@ -145,16 +145,7 @@ int[] myArray = CreateRandomArray(size, minValue, maxValue);
 WriteArray(myArray);
 int[] copy_my_array = copy_array(myArray);
 WriteArray(copy_my_array);
-// PrintArray(myArray);
-// int[] CopyMyArray = CopyArray(myArray);
-// PrintArray(CopyMyArray);
-
-
-
-
-
-
-
+*/
            
 //HomeWork
 //Написать программу, преобразующую число из десятеричной системы счисления в двоичную.
