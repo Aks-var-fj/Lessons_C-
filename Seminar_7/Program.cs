@@ -174,7 +174,7 @@ void show_2d_array (int[,] array)
 
 int the_sum_of_the_elements_of_the_main_diagonal(int[,] array)
 {
-int sum =0;
+int sum = 0;
 for (int i = 0; i < array.GetLength(0) && i < array.GetLength(1); i++)
     {
         sum = sum + array[i, i];
