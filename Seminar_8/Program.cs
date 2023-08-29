@@ -36,11 +36,9 @@ void show_2d_array (int[,] array)
 
 }
 
-void ChangeRows(int[,] array, int r1, int r2)
+void change_rows(int[,] array, int r1, int r2)
 {
-    if(r1 >= 0 && r1 < array.GetLength(0) &&
-       r2 >= 0 && r2 < array.GetLength(0) &&
-       r1 != r2)
+    if(r1 >= 0 && r1 < array.GetLength(0) && r2 >= 0 && r2 < array.GetLength(0) && r1 != r2)
     {
         for(int j = 0; j < array.GetLength(1); j++)
         {
@@ -51,19 +49,18 @@ void ChangeRows(int[,] array, int r1, int r2)
     }
 }
 
-int[,] myArray = create_random_2d_array;
+int[,] myArray = create_random_2d_array();
 show_2d_array(myArray);
 
-System.Console.WriteLine("Input a number of the first row to change: ");
+System.Console.Write("Input a number of the first row to change: ");
 int row1 = Convert.ToInt32(Console.ReadLine()) - 1;
 
-System.Console.WriteLine("Input a number of the second row to change: ");
+System.Console.Write("Input a number of the second row to change: ");
 int row2 = Convert.ToInt32(Console.ReadLine()) - 1;
 
-ChangeRows(myArray);
+change_rows(myArray, row1, row2);
 show_2d_array(myArray);
 */
-
 // Задайте двумерный массив. Напишите программу, которая заменяет строки на столбцы.
 /*
 int[,] create_random_2d_array()
@@ -121,9 +118,8 @@ ChangeRows(myArray);
 System.Console.WriteLine();
 show_2d_array(myArray);
 */
-
 // Из двумерного массива целых чисел удалить строку и столбец, на пересечении которых расположен наименьший элемент.
-
+/*
 int[,] create_random_2d_array()
 {
     Console.Write("Input a quantity rows: ");
@@ -160,10 +156,10 @@ void show_2d_array (int[,] array)
 
 }
 
-int[,] find_row_and_columns(int[,] array)
+int[,] delete_row_and_column_with_min_value (int[,] array)
 {
-    int row = i;
-    int columns = j;
+    int row = 0;
+    int columns = 0;
     for (int i = 0; i < array.GetLength(0); i++)
     {
         for (int j = 0; j < array.GetLength(1); j++)
@@ -175,10 +171,11 @@ int[,] find_row_and_columns(int[,] array)
             }
         }
     }
+
     int [,] new_array = new int[array.GetLength(0) - 1, array.GetLength(1) - 1];
-    for (int i = 0; i < array.GetLength(0); i++)
+    for (int i = 0; i < new_array.GetLength(0); i++)
     {
-        for (int j = 0; j < array.GetLength(1); j++)
+        for (int j = 0; j < new_array.GetLength(1); j++)
         {
             if (i < row && j < columns) new_array[i,j] = array[i, j];
             if (i < row && j >= columns) new_array[i, j] = array[i, j + 1];
@@ -187,8 +184,15 @@ int[,] find_row_and_columns(int[,] array)
         }
                 
     }
+    return new_array;
+}
 
-
+int[,] my_array = create_random_2d_array();
+show_2d_array(my_array);
+System.Console.WriteLine();
+int[,] modified_array = delete_row_and_column_with_min_value(my_array);
+show_2d_array(modified_array);
+*/
 
 
 
