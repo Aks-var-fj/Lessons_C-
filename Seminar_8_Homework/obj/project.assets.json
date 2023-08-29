@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\comet\\Desktop\\Lessons_C#\\Lessons_C-\\Seminar_8_Homework\\Seminar_8_Homework.csproj",
+      "projectUniqueName": "C:\\Users\\comet\\Desktop\\Lessons_C-\\Seminar_8_Homework\\Seminar_8_Homework.csproj",
       "projectName": "Seminar_8_Homework",
-      "projectPath": "C:\\Users\\comet\\Desktop\\Lessons_C#\\Lessons_C-\\Seminar_8_Homework\\Seminar_8_Homework.csproj",
+      "projectPath": "C:\\Users\\comet\\Desktop\\Lessons_C-\\Seminar_8_Homework\\Seminar_8_Homework.csproj",
       "packagesPath": "C:\\Users\\comet\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\comet\\Desktop\\Lessons_C#\\Lessons_C-\\Seminar_8_Homework\\obj\\",
+      "outputPath": "C:\\Users\\comet\\Desktop\\Lessons_C-\\Seminar_8_Homework\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\comet\\AppData\\Roaming\\NuGet\\NuGet.Config"

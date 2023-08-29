@@ -94,8 +94,8 @@ show_the_number_in_2d_array_by_coordinates(my_array);
 /*
 int[,] create_random_2d_small_array_with_random_rows_and_columns ()
 {
-    int rows = new Random().Next (3,10);
-    int columns = new Random().Next(3,10);
+    int rows = new Random().Next (3,6);
+    int columns = new Random().Next(3,6);
     int[,] array = new int[rows, columns];
     
     for (int i = 0; i < rows; i++)
