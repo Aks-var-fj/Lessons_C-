@@ -99,7 +99,7 @@ int[,] create_random_2d_small_array_with_random_rows_and_columns ()
     int[,] array = new int[rows, columns];
     
     for (int i = 0; i < rows; i++)
-        for (int j = 1; j < columns; j++)
+        for (int j = 0; j < columns; j++)
             array[i,j] = new Random().Next(0,10);  
     return array;
 }
@@ -114,14 +114,7 @@ void show_2d_array (int[,] array)
     }
 }
 
-void show_array_with_double (double[] array)
-{
-    for (int i = 0; i < array.Length; i++)
-        System.Console.Write($"{array[i]}  ");
-    System.Console.WriteLine();
-}
-
-double[] arithmetic_mean_in_columns (int[,] array)
+void arithmetic_mean_in_columns (int[,] array)
 {
     double [] modified_array = new double[array.GetLength(1)];
     for (int j = 0; j < array.GetLength(1); j++)
@@ -131,16 +124,17 @@ double[] arithmetic_mean_in_columns (int[,] array)
             modified_array[j] += array[i,j];
         }
         modified_array[j] = Math.Round((modified_array[j] / array.GetLength(0)), 1);
+        System.Console.WriteLine($"{modified_array[j]} is average in {j} column");
     }
-    return modified_array;
+    
 }
 
 int[,] my_array = create_random_2d_small_array_with_random_rows_and_columns();
 show_2d_array(my_array);
 System.Console.WriteLine();
-double[] modified_array = arithmetic_mean_in_columns(my_array);
-show_array_with_double(modified_array);
+arithmetic_mean_in_columns(my_array);
 */
+
 
 
 
