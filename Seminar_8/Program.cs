@@ -162,8 +162,8 @@ void show_2d_array (int[,] array)
 
 int[,] find_row_and_columns(int[,] array)
 {
-    int row = i;
-    int columns = j;
+    int row = 0;
+    int columns = 0;
     for (int i = 0; i < array.GetLength(0); i++)
     {
         for (int j = 0; j < array.GetLength(1); j++)
@@ -187,7 +187,11 @@ int[,] find_row_and_columns(int[,] array)
         }
                 
     }
+    return new_array;
+}
 
+int [,] my_array = create_random_2d_array();
+show_2d_array(my_array);
 
 
 
