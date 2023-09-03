@@ -1,0 +1,15 @@
+C:\Users\79288\Lessons_C-\Seminar_9_Recursion\obj\Debug\net6.0\Seminar_9_Recursion.csproj.AssemblyReference.cache
+C:\Users\79288\Lessons_C-\Seminar_9_Recursion\obj\Debug\net6.0\Seminar_9_Recursion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\79288\Lessons_C-\Seminar_9_Recursion\obj\Debug\net6.0\Seminar_9_Recursion.AssemblyInfoInputs.cache
+C:\Users\79288\Lessons_C-\Seminar_9_Recursion\obj\Debug\net6.0\Seminar_9_Recursion.AssemblyInfo.cs
+C:\Users\79288\Lessons_C-\Seminar_9_Recursion\obj\Debug\net6.0\Seminar_9_Recursion.csproj.CoreCompileInputs.cache
+C:\Users\79288\Lessons_C-\Seminar_9_Recursion\bin\Debug\net6.0\Seminar_9_Recursion.exe
+C:\Users\79288\Lessons_C-\Seminar_9_Recursion\bin\Debug\net6.0\Seminar_9_Recursion.deps.json
+C:\Users\79288\Lessons_C-\Seminar_9_Recursion\bin\Debug\net6.0\Seminar_9_Recursion.runtimeconfig.json
+C:\Users\79288\Lessons_C-\Seminar_9_Recursion\bin\Debug\net6.0\Seminar_9_Recursion.dll
+C:\Users\79288\Lessons_C-\Seminar_9_Recursion\bin\Debug\net6.0\Seminar_9_Recursion.pdb
+C:\Users\79288\Lessons_C-\Seminar_9_Recursion\obj\Debug\net6.0\Seminar_9_Recursion.dll
+C:\Users\79288\Lessons_C-\Seminar_9_Recursion\obj\Debug\net6.0\refint\Seminar_9_Recursion.dll
+C:\Users\79288\Lessons_C-\Seminar_9_Recursion\obj\Debug\net6.0\Seminar_9_Recursion.pdb
+C:\Users\79288\Lessons_C-\Seminar_9_Recursion\obj\Debug\net6.0\Seminar_9_Recursion.genruntimeconfig.cache
+C:\Users\79288\Lessons_C-\Seminar_9_Recursion\obj\Debug\net6.0\ref\Seminar_9_Recursion.dll
