@@ -230,27 +230,38 @@ int[,,] my_array = create_random_3d_array_from_non_repeating_two_digits_numbers(
 show_3d_array(my_array);
 */
 // Задача 62. Напишите программу, которая заполнит спирально массив 4 на 4.
-// Например, на выходе получается вот такой массив:
-// 01 02 03 04
-// 12 13 14 05
-// 11 16 15 06
-// 10 09 08 07
+/*
+// int[,] create_random_2d_small_array_with_random_rows_and_columns()
+// {
+//     int rows = 6;
+//     int[,] array = new int[rows, rows];
+//     int i = 0, j = 0, value = 1;
+//     for (int itterations = 0; itterations < rows * rows; itterations++)
+//     {
+//         int k = 0;
+//         do { array[i, j++] = value++; } while (++k < rows - 1);
+//         for (k = 0; k < rows - 1; k++) array[i++, j] = value++;
+//         for (k = 0; k < rows - 1; k++) array[i, j--] = value++;
+//         for (k = 0; k < rows - 1; k++) array[i--, j] = value++;
+//         ++i; ++j;
+//         rows = rows < 2 ? 0 : rows - 2;
+//     }
+//     return array;
+// }
 
 int[,] create_random_2d_small_array_with_random_rows_and_columns()
 {
-    int rows = 6;
-    int[,] array = new int[rows, rows];
-    int i = 0, j = 0;
-    int value = 1;
-    for (int itterations = 0; itterations < rows * rows; itterations++)
+    int size = 9;
+    int[,] array = new int[size, size];
+    int value = 1, i = 0, j = 0;
+    while (value <= array.GetLength(0) * array.GetLength(1))
     {
-        int k = 0;
-        do { array[i, j++] = value++; } while (++k < rows - 1);
-        for (k = 0; k < rows - 1; k++) array[i++, j] = value++;
-        for (k = 0; k < rows - 1; k++) array[i, j--] = value++;
-        for (k = 0; k < rows - 1; k++) array[i--, j] = value++;
-        ++i; ++j;
-        rows = rows < 2 ? 0 : rows - 2;
+        array[i,j] = value;
+        if (i <= j + 1 && i + j < size - 1) j++;
+        else if (i < j && i + j >= size - 1) i++;
+        else if (i >= j && i + j > size - 1) j--;
+        else i--;
+        value++;
     }
     return array;
 }
@@ -271,7 +282,7 @@ void show_2d_fill_array (int[,] array)
 
 int[,] my_array = create_random_2d_small_array_with_random_rows_and_columns();
 show_2d_fill_array(my_array);
-
+*/
 
 
 

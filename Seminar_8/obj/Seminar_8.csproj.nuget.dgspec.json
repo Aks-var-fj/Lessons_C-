@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\comet\\Desktop\\Lessons_C#\\Lessons_C-\\Seminar_8\\Seminar_8.csproj": {}
+    "C:\\Users\\79288\\Lessons_C-\\Seminar_8\\Seminar_8.csproj": {}
   },
   "projects": {
-    "C:\\Users\\comet\\Desktop\\Lessons_C#\\Lessons_C-\\Seminar_8\\Seminar_8.csproj": {
+    "C:\\Users\\79288\\Lessons_C-\\Seminar_8\\Seminar_8.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\comet\\Desktop\\Lessons_C#\\Lessons_C-\\Seminar_8\\Seminar_8.csproj",
+        "projectUniqueName": "C:\\Users\\79288\\Lessons_C-\\Seminar_8\\Seminar_8.csproj",
         "projectName": "Seminar_8",
-        "projectPath": "C:\\Users\\comet\\Desktop\\Lessons_C#\\Lessons_C-\\Seminar_8\\Seminar_8.csproj",
-        "packagesPath": "C:\\Users\\comet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\comet\\Desktop\\Lessons_C#\\Lessons_C-\\Seminar_8\\obj\\",
+        "projectPath": "C:\\Users\\79288\\Lessons_C-\\Seminar_8\\Seminar_8.csproj",
+        "packagesPath": "C:\\Users\\79288\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\79288\\Lessons_C-\\Seminar_8\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\comet\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\79288\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
