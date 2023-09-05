@@ -44,17 +44,42 @@ string PrintNumbers(int start, int end)
 Console.WriteLine(PrintNumbers(1,8));
 */
 // Задача 65: Задайте значения M и N. Напишите программу, которая выведет все натуральные числа в промежутке от M до N.
-// M = 1; N = 5 -> "1, 2, 3, 4, 5"
-// M = 4; N = 8 -> "4, 6, 7, 8"
+/*
+void ShowNaturalNumbers(int min, int max, int count=0)
+{
+if(min>count) count=min;
+else count++;
 
+Console.Write(count + " ");
 
+if(count<max) ShowNaturalNumbers(min, max, count);
+}
+Console.Write("Input a min: ");
+int min = Convert.ToInt32(Console.ReadLine());
+Console.Write("Input a max: ");
+int max = Convert.ToInt32(Console.ReadLine());
+ShowNaturalNumbers(min, max);
+*/
+// Эльвира: Задача 67: Напишите программу, которая будет принимать на вход число и возвращать сумму его цифр.
+/*
+int sum_digits(int number)
+{
+    if(number == 0) return 0;
+    else return number % 10 + sum_digits(number / 10);
+}
 
+Console.WriteLine(sum_digits(556));
+*/
+// Задача 69: Напишите программу, которая на вход принимает два числа A и B, и возводит число А в целую степень B с помощью рекурсии.
+/*
+int power_AB(int a, int b)
+{
+    if (b == 0) return 1;
+    else return a * power_AB(a, b - 1);
+}
 
-
-
-
-
-
+Console.WriteLine(power_AB(5,3));
+*/
 
 
 
